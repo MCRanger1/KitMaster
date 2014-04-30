@@ -28,4 +28,15 @@ public class Enchant {
 	public String toString(){
 		return String.valueOf(enc) + ":" + lvl;
 	}
+public class CustomEnchant{
+	public EnchantDefaults enc;
+	public int lvl;
+	public CustomEnchant(EnchantDefaults enc, int lvl){
+		this.enc = enc;
+		this.lvl = lvl;
+	}
+        public String toString(){
+        	return Sring.valueOf(enc) + ":" + lvl;
+        }
+}
 }
